@@ -1,5 +1,5 @@
-FROM postgres:latest
-MAINTAINER Cristoffer Fairweather <cfairweather@annixa.com> # Previously Ilya Stepanov <dev@ilyastepanov.com>
+FROM mdillon/postgis:10
+MAINTAINER Heitor Carneiro <heitor.carneiro@geoambiente.com.br>
 
 RUN apt-get update && \
     apt-get install -y cron && \
